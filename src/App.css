@@ -1,0 +1,85 @@
+body{
+  background-color: rgba(171, 226, 208, 0.515);
+  
+}
+
+.App {
+    background-color: #fcfdf8;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 40px;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1{
+  text-align: center;
+  color: rgb(45, 138, 107);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 250%;
+}
+
+fieldset{
+  border:none;
+}
+
+input{
+  display: block;
+  width: 100%;
+
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+    width: 10%;
+}
+
+label {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+select{
+  display: block;
+  width: 100%;
+
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 10px;
+}
+
+textarea{
+  resize: none;
+  width: 90%;
+  height: 165px;
+  border-width: 0.2px;
+  border-radius: 8px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 40px;
+    margin: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4caf50;
+    width: 40%;
+    font-size: larger;
+    font-weight: bold;
+}
